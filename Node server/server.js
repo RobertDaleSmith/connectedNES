@@ -1,6 +1,7 @@
 // ConnectedNES (Rachel Simone Weil, 2016)
 // nobadmemories.com/connectednes
 
+require('dotenv').config();
 
 // Set up twitter and app credentials (See dev.twitter.com)
 var Twit = require('twit');
